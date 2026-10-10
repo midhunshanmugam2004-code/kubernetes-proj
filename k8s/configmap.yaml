@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: storage-demo-config
+  namespace: storage-demo
+data:
+  DATA_DIR: /data
